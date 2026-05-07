@@ -1,3 +1,3 @@
 sources:
-  - name: Autocar
-    url: https://www.autocar.co.uk/rss
+  - name: Car and Driver
+    url: https://www.caranddriver.com/rss/all.xml/
