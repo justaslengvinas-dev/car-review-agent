@@ -29,6 +29,11 @@ keywords = ["review", "driven", "tested", "first drive"]
 for entry in feed.entries:
     title_lower = entry.title.lower()
 
+   keywords = ["review", "driven", "tested", "first drive"]
+
+for entry in feed.entries:
+    title_lower = entry.title.lower()
+
     if any(keyword in title_lower for keyword in keywords):
         print("-" * 50)
         print("Pavadinimas:", entry.title)
