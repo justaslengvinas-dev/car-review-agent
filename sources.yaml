@@ -1,3 +1,9 @@
 sources:
   - name: Car and Driver
     url: https://www.caranddriver.com/rss/all.xml/
+
+  - name: Motor1
+    url: https://www.motor1.com/rss/
+
+  - name: Motor Authority
+    url: https://www.motorauthority.com/rss
