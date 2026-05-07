@@ -24,7 +24,12 @@ for source in sources:
 
     print("Rasta įrašų:", len(feed.entries))
 
-    for entry in feed.entries[:5]:
+keywords = ["review", "driven", "tested", "first drive"]
+
+for entry in feed.entries:
+    title_lower = entry.title.lower()
+
+    if any(keyword in title_lower for keyword in keywords):
         print("-" * 50)
         print("Pavadinimas:", entry.title)
         print("Nuoroda:", entry.link)
